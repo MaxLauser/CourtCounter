@@ -1,9 +1,11 @@
-package com.example.android.courtcounter;
+package com.android.basketball.score.counter;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.android.basketball.score.R;
 
 public class MainActivity extends AppCompatActivity {
 
