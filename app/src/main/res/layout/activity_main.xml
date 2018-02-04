@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/basketball_2"
     tools:context="com.android.basketball.score.counter.MainActivity">
 
     <LinearLayout
@@ -30,7 +31,7 @@
                 android:textSize="14sp"
                 android:text="Team A"
                 android:fontFamily="sans-serif-medium"
-                android:textColor="#616161"/>
+                android:textColor="@android:color/white"/>
 
             <TextView
                 android:id="@+id/scoreTeamA"
@@ -109,7 +110,7 @@
                 android:gravity="center_horizontal"
                 android:padding="5dp"
                 android:text="Team B"
-                android:textColor="#616161"
+                android:textColor="@android:color/white"
                 android:textSize="14sp" />
 
             <TextView
