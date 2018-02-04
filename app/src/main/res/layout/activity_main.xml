@@ -36,13 +36,22 @@
                 android:id="@+id/scoreTeamA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
                 android:gravity="center_horizontal"
-                android:padding="5dp"
                 android:fontFamily="sans-serif-light"
                 android:text="0"
                 android:textColor="@android:color/holo_green_light"
                 android:textSize="56sp" />
+
+            <TextView
+                android:id="@+id/foulsTeamA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="sans-serif-light"
+                android:text="0"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="36sp" />
 
             <Button
                 android:layout_width="110dp"
@@ -65,7 +74,15 @@
                 android:layout_height="wrap_content"
                 android:background="#FF9800"
                 android:onClick="freeThrowTeamA"
+                android:layout_marginBottom="10dp"
                 android:text="Free Throw" />
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="#FF9800"
+                android:onClick="foolTeamA"
+                android:text="Foul" />
 
         </LinearLayout>
 
@@ -99,13 +116,21 @@
                 android:id="@+id/scoreTeamB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
-                android:padding="5dp"
                 android:text="0"
                 android:textColor="@android:color/holo_green_light"
                 android:textSize="56sp" />
+            <TextView
+                android:id="@+id/foulsTeamB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="36sp" />
 
             <Button
                 android:layout_width="110dp"
@@ -129,7 +154,15 @@
                 android:layout_height="wrap_content"
                 android:background="#FF9800"
                 android:onClick="freeThrowTeamB"
+                android:layout_marginBottom="10dp"
                 android:text="Free Throw" />
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="#FF9800"
+                android:onClick="foolTeamB"
+                android:text="Foul" />
 
         </LinearLayout>
 
